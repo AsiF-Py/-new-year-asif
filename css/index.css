@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+
+.banner {
+    background-image: url("../images/banner/banner2.png");
+    width: 100%;
+    height: 620px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 130px;
+
+}
+
+.banner-content {
+    text-align: right;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    width: 400px;
+    height: 228px;
+
+}
+
+.banner-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 24px;
+
+}
+
+.banner-discription {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.btn {
+    font-family: 'Work Sans';
+    background-color: #F15B22;
+    width: 160px;
+    height: 64px;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    padding: 0 250px 24px 206px;
+    margin-bottom: 130px;
+
+
+}
+
+.person-contant {
+    margin-left: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.person-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 10px;
+}
+
+i {
+    color: #16D887;
+}
+
+.person-discription {
+    margin-bottom: 16px;
+}
+
+.person-sub-discription {
+    margin-bottom: 16px;
+}
+
+.img {
+    width: 569px;
+    height: 723.3px;
+}
+
+/* Plans */
+
+.plans {
+    padding: 0 250px 24px 206px;
+    margin-bottom: 130px;
+
+}
+
+.plan-contant {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.plans h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan h6 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-weight: 500;
+    font-size: 15px;
+    color: #737272;
+}
+
+.banner-two {
+    background-image: url("../images/watch.png"), url("/images/gradient1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 250px 24px 206px;
+    margin-bottom: 130px;
+
+
+}
+
+.banner-two-contant {
+    padding: 60px 600px 60px 64px;
+    height: 116px;
+    width: 236px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 5px;
+
+}
+
+.banner-two-contant h2 {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.btn-call-now {
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+}
+
+.footer {
+    background: #151414;
+    color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px 130px 230px;
+}
+
+.footer .future p {
+    width: 400px;
+}
+
+.footer h1,
+p {
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.subscribe input[type=text] {
+    width: 250px;
+    height: 55px;
+    color: #F8F8F8;
+    background-color: #151414;
+    border: 1px solid wheat;
+    border-radius: 5px;
+}
+
+.subscribe h2,
+input,
+button {
+    margin-bottom: 30px;
+}
