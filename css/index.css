@@ -3,6 +3,7 @@
     font-family: 'Work Sans';
     font-style: normal;
 }
+/* Banner One */
 
 .banner {
     background-image: url("../images/banner/banner2.png");
@@ -53,47 +54,39 @@
     font-weight: 600;
     border-radius: 5px;
 }
+/* Person */
 
 .person {
     display: flex;
     align-items: center;
     padding: 0 250px 24px 206px;
     margin-bottom: 130px;
-
-
 }
-
 .person-contant {
     margin-left: 25px;
     font-weight: 400;
     font-size: 16px;
     color: #444343;
 }
-
 .person-title {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
     margin-bottom: 10px;
 }
-
-i {
+.person-icon i {
     color: #16D887;
 }
-
 .person-discription {
     margin-bottom: 16px;
 }
-
 .person-sub-discription {
     margin-bottom: 16px;
 }
-
 .img {
     width: 569px;
     height: 723.3px;
 }
-
 /* Plans */
 
 .plans {
@@ -101,60 +94,48 @@ i {
     margin-bottom: 130px;
 
 }
-
 .plan-contant {
     display: flex;
     justify-content: space-around;
 }
-
-
-
 .plans h1 {
     text-align: center;
     margin-bottom: 50px;
 }
-
 .plan {
     text-align: center;
 }
-
 .plan h6 {
     font-weight: 700;
     font-size: 20px;
     color: #151414;
     margin-bottom: 10px;
 }
-
 .plan p {
     font-weight: 500;
     font-size: 15px;
     color: #737272;
 }
+/* Poster */
 
-.banner-two {
+.poster {
     background-image: url("../images/watch.png"), url("/images/gradient1.png");
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0 250px 24px 206px;
     margin-bottom: 130px;
-
-
 }
-
-.banner-two-contant {
+.poster-contant {
     padding: 60px 600px 60px 64px;
     height: 116px;
     width: 236px;
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     border-radius: 5px;
-
 }
-
-.banner-two-contant h2 {
+.poster-contant h2 {
     color: #FFFFFF;
     margin-bottom: 20px;
 }
-
 .btn-call-now {
     background: #FFFFFF;
     border-radius: 5px;
@@ -165,6 +146,37 @@ i {
     font-size: 20px;
     color: #F15B22;
 }
+/* Card */
+
+.card h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card-contant {
+    padding: 0px 230px 130px 200px;
+    display: flex;
+}
+
+.card-body img {
+    /* max-width: 100%; */
+    width: 226px;
+    height: 162px;
+    border-radius: 1em;
+}
+.card-body {
+    box-shadow: 0 .1rem 1rem #f15d22bd;
+    border-radius: 1em;
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px;
+}
+.card-body h3{
+    margin-bottom: 10px;
+}
+.card-icon{
+    color: none;
+}
+/* Footer */
 
 .footer {
     background: #151414;
@@ -173,22 +185,18 @@ i {
     justify-content: space-between;
     padding: 130px 230px 130px 230px;
 }
-
 .footer .future p {
     width: 400px;
 }
-
 .footer h1,
 p {
     margin-bottom: 20px;
 }
-
 .footer p {
     margin-bottom: 20px;
     font-weight: 400;
     font-size: 16px;
 }
-
 .subscribe input[type=text] {
     width: 250px;
     height: 55px;
@@ -197,9 +205,6 @@ p {
     border: 1px solid wheat;
     border-radius: 5px;
 }
-
-.subscribe h2,
-input,
-button {
+.subscribe h2,input,button {
     margin-bottom: 30px;
 }
